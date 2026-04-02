@@ -58,22 +58,32 @@
         <div class="section-head">
           <h2 id="chapter-title"></h2>
           <p id="chapter-subtitle"></p>
+          <p class="chapter-snapshot" id="chapter-snapshot"></p>
         </div>
 
         <div class="chapter-grid">
-          <article>
+          <article class="card-wide">
             <h3>What Happens</h3>
             <ul id="what-happens-list"></ul>
           </article>
           <article>
+            <h3>Plot Focus</h3>
+            <details class="focus-details" id="plot-focus-details">
+              <summary id="plot-focus-summary">Tap to expand key plot beats</summary>
+              <ul id="plot-focus-list"></ul>
+            </details>
+          </article>
+          <article>
             <h3>Why It Matters</h3>
             <p id="why-it-matters"></p>
+            <ul id="why-matters-list" class="compact-list"></ul>
           </article>
           <article>
             <h3>Key Theme</h3>
             <p id="key-theme" class="theme-pill"></p>
+            <p class="theme-note" id="theme-note"></p>
           </article>
-          <article>
+          <article class="card-wide">
             <h3>Class Discussion Question</h3>
             <p id="discussion-question"></p>
           </article>
@@ -99,6 +109,31 @@
         <p class="reflection-result" id="reflection-result">
           Pick one to generate your class takeaway.
         </p>
+
+        <div class="big-idea">
+          <h3>Big Idea Ending</h3>
+          <p class="big-idea-intro">
+            Across these chapters, Tara moves through one connected arc:
+          </p>
+          <div class="arc-grid">
+            <article>
+              <p class="arc-step">1</p>
+              <p class="arc-title">Pain becomes myth</p>
+              <p class="arc-copy" id="arc-myth"></p>
+            </article>
+            <article>
+              <p class="arc-step">2</p>
+              <p class="arc-title">Waiting becomes a trap</p>
+              <p class="arc-copy" id="arc-waiting"></p>
+            </article>
+            <article>
+              <p class="arc-step">3</p>
+              <p class="arc-title">Identity becomes self-defined</p>
+              <p class="arc-copy" id="arc-identity"></p>
+            </article>
+          </div>
+          <p class="closing-line" id="closing-line"></p>
+        </div>
       </section>
     </main>
 

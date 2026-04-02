@@ -2,16 +2,32 @@ const CHAPTERS = {
   "25": {
     title: "Chapter 25 — The Work of Sulphur",
     subtitle: "Pain becomes myth.",
+    snapshot:
+      "A near-fatal injury is retold as proof of destiny, not warning, and Tara sees how stories can hide danger.",
     whatHappens: [
-      "After a severe burn, Dad avoids hospitals and treats himself with home remedies.",
-      "The family frames survival as proof of faith and toughness.",
-      "Tara watches pain get retold as a near-sacred family story."
+      "Dad is caught in an explosion and suffers severe burns that should require emergency medical care.",
+      "Instead of a hospital plan, the family relies on home treatment, herbal remedies, and prayer routines.",
+      "As he survives, the event shifts from crisis to miracle narrative inside the family.",
+      "Tara notices the same pain that should force change being used to defend old beliefs."
+    ],
+    plotFocusSummary: "Dad's explosion, severe injuries, and the family's miracle framing.",
+    plotFocus: [
+      "The physical facts are extreme: his skin and body are badly damaged.",
+      "Treatment stays inside the family world, reinforcing distrust of outside institutions.",
+      "Recovery gets narrated as evidence that Dad's worldview is right, not risky."
     ],
     whyItMatters:
-      "The chapter shows how suffering can be turned into a legend that protects family beliefs, even when reality is dangerous.",
+      "Chapter 25 shows how suffering can be converted into meaning so quickly that accountability disappears.",
+    whyPoints: [
+      "Myth gives emotional order during chaos.",
+      "But the same myth can normalize preventable harm.",
+      "Tara begins separating what happened from how it is narrated."
+    ],
     keyTheme: "Myth-making",
+    themeNote:
+      "When pain is treated as prophecy, reality loses authority.",
     discussionQuestion:
-      "When does a family story give strength, and when does it erase harm?",
+      "How does the miracle story protect the family, and what truth does it push out?",
     interaction: {
       heading: "Miracle or denial?",
       prompt: "Pick your read of the chapter's central tension:",
@@ -19,17 +35,17 @@ const CHAPTERS = {
         {
           label: "Mostly miracle",
           feedback:
-            "Seeing it as miracle highlights faith, but it can hide the medical risk and silence fear."
+            "This reading honors faith and resilience, but it can mute the medical danger and fear in the room."
         },
         {
           label: "Mostly denial",
           feedback:
-            "Seeing it as denial reveals the cost: pain is real, but the story is edited to protect the family myth."
+            "This reading highlights the cost: survival is real, yet the story can erase responsibility for risk."
         },
         {
           label: "Both",
           feedback:
-            "This chapter lives in both worlds: faith language offers meaning while denial keeps harmful patterns alive."
+            "Strong synthesis: belief gives comfort while denial protects harmful patterns from scrutiny."
         }
       ]
     }
@@ -37,16 +53,32 @@ const CHAPTERS = {
   "26": {
     title: "Chapter 26 — Waiting for the Moving Water",
     subtitle: "Waiting becomes a trap.",
+    snapshot:
+      "Recovery drags on, conflict keeps simmering, and waiting starts to feel less like faith and more like captivity.",
     whatHappens: [
-      "Tara is told healing or change will come if she waits long enough.",
-      "Action is delayed while harm and confusion continue.",
-      "Waiting starts to feel less like patience and more like paralysis."
+      "The long recovery creates a suspended atmosphere where everyone orbits injury, fear, and silence.",
+      "Tensions involving Shawn and Emily continue shaping daily life, especially through intimidation and uncertainty.",
+      "Tara keeps hoping things will settle on their own, but waiting repeatedly delays real intervention.",
+      "Time passes, but emotionally the family system stays stuck in the same cycle."
+    ],
+    plotFocusSummary: "Long recovery, suspended atmosphere, Shawn and Emily, Tara's trapped feeling.",
+    plotFocus: [
+      "Healing is slow enough that 'temporary' disorder becomes the new normal.",
+      "Shawn and Emily's dynamic raises stakes around control, fear, and bystander silence.",
+      "Tara senses that passive waiting is not neutral; it keeps danger structurally in place."
     ],
     whyItMatters:
-      "The chapter exposes how 'just wait' can sound spiritual but function as control, keeping someone stuck in danger.",
+      "The chapter reframes patience: in unequal systems, waiting can function as obedience rather than wisdom.",
+    whyPoints: [
+      "Delay protects those already holding power.",
+      "Hope without action can become self-erasure.",
+      "Tara starts naming her trapped feeling instead of dismissing it."
+    ],
     keyTheme: "Stalled time",
+    themeNote:
+      "Waiting is not always healing; sometimes it is how harm survives.",
     discussionQuestion:
-      "How can waiting look wise on the surface but still prevent real change?",
+      "What finally tells us waiting has crossed the line from patience into surrender?",
     interaction: {
       heading: "Is waiting healing?",
       prompt: "How does waiting operate in this chapter?",
@@ -54,17 +86,17 @@ const CHAPTERS = {
         {
           label: "Mostly healing",
           feedback:
-            "Waiting can protect people from impulsive choices, but here it often delays needed action."
+            "It can prevent rash choices, but this chapter shows how delay can also preserve a harmful status quo."
         },
         {
           label: "Mostly trapping",
           feedback:
-            "This is the chapter's core move: waiting becomes a trap that keeps Tara inside harmful patterns."
+            "This matches the chapter's pressure point: waiting becomes the mechanism that keeps Tara stuck."
         },
         {
           label: "Depends on who has power",
           feedback:
-            "Strong reading: waiting helps only when the person waiting has agency; otherwise it can become obedience."
+            "Best structural read: waiting helps only when the person waiting controls what happens next."
         }
       ]
     }
@@ -72,16 +104,32 @@ const CHAPTERS = {
   "27": {
     title: "Chapter 27 — If I Were a Woman",
     subtitle: "Tara begins defining herself.",
+    snapshot:
+      "Academic life opens new language for Tara, and she starts moving from being judged to self-definition.",
     whatHappens: [
-      "Gender expectations and judgment shape how Tara is seen and corrected.",
-      "She starts noticing conflict between family definitions and her own experience.",
-      "A new question emerges: who has the authority to name who she is?"
+      "Tara's academic shift deepens as she studies in environments that challenge her inherited assumptions.",
+      "Gender expectations from home remain loud, shaping how she is evaluated and disciplined.",
+      "Guidance from Dr. Kerry and her Cambridge context gives her alternate models of authority and belonging.",
+      "She begins claiming an independent identity instead of accepting only family labels."
+    ],
+    plotFocusSummary: "Academic shift, gender expectations, Dr. Kerry, Cambridge, and identity independence.",
+    plotFocus: [
+      "Education becomes more than achievement; it becomes a new frame for interpreting experience.",
+      "Gender scripts are exposed as social rules, not universal truth.",
+      "Dr. Kerry and Cambridge act as catalysts for self-trust and critical distance."
     ],
     whyItMatters:
-      "The chapter marks a shift from only reacting to family narratives toward building personal identity and voice.",
+      "Chapter 27 is the hinge: Tara moves from surviving a narrative to authoring one.",
+    whyPoints: [
+      "Identity shifts from inherited to examined.",
+      "External validation opens space for internal authority.",
+      "Discovery and escape start working together."
+    ],
     keyTheme: "Identity and gender",
+    themeNote:
+      "Self-definition begins when Tara treats her perspective as legitimate evidence.",
     discussionQuestion:
-      "What changes when Tara moves from being described by others to describing herself?",
+      "How do education and distance help Tara hear her own voice against family certainty?",
     interaction: {
       heading: "Who gets to define Tara's identity?",
       prompt: "Choose the strongest force by Chapter 27:",
@@ -89,33 +137,53 @@ const CHAPTERS = {
         {
           label: "Family stories",
           feedback:
-            "Family still has major influence, especially through shame and expectation."
+            "Family narratives still pressure her heavily, especially through guilt, shame, and duty."
         },
         {
           label: "Community gender rules",
           feedback:
-            "Gender rules frame what is seen as acceptable, pressuring Tara to fit a script."
+            "Gender scripts continue policing what counts as a 'good' woman and daughter."
         },
         {
           label: "Tara herself",
           feedback:
-            "This signals the turning point: Tara begins claiming authority over her own identity."
+            "This captures the turning point: she begins claiming authority over naming her own life."
         }
       ]
     }
   }
 };
 
+const BIG_IDEA_ARC = {
+  myth:
+    "Dad's explosion is transformed into proof that the family worldview works, even when it nearly destroys them.",
+  waiting:
+    "During recovery and conflict, 'just wait' freezes action and makes danger feel normal.",
+  identity:
+    "By Cambridge, Tara uses education and mentorship to define herself beyond inherited scripts."
+};
+
 const chapterButtons = Array.from(document.querySelectorAll(".path-card"));
 const chapterTitle = document.getElementById("chapter-title");
 const chapterSubtitle = document.getElementById("chapter-subtitle");
+const chapterSnapshot = document.getElementById("chapter-snapshot");
 const whatHappensList = document.getElementById("what-happens-list");
+const plotFocusSummary = document.getElementById("plot-focus-summary");
+const plotFocusList = document.getElementById("plot-focus-list");
 const whyItMatters = document.getElementById("why-it-matters");
+const whyMattersList = document.getElementById("why-matters-list");
 const keyTheme = document.getElementById("key-theme");
+const themeNote = document.getElementById("theme-note");
 const discussionQuestion = document.getElementById("discussion-question");
 const chapterInteraction = document.getElementById("chapter-interaction");
 const visitMeter = document.getElementById("visit-meter");
 const chapterPanel = document.getElementById("chapter-content");
+const plotFocusDetails = document.getElementById("plot-focus-details");
+
+const arcMyth = document.getElementById("arc-myth");
+const arcWaiting = document.getElementById("arc-waiting");
+const arcIdentity = document.getElementById("arc-identity");
+const closingLine = document.getElementById("closing-line");
 
 const visitedChapters = new Set(["25"]);
 let activeChapterId = "25";
@@ -131,9 +199,7 @@ function renderChapter(chapterId) {
 
   chapterTitle.textContent = chapter.title;
   chapterSubtitle.textContent = chapter.subtitle;
-  whyItMatters.textContent = chapter.whyItMatters;
-  keyTheme.textContent = chapter.keyTheme;
-  discussionQuestion.textContent = chapter.discussionQuestion;
+  chapterSnapshot.textContent = chapter.snapshot;
 
   whatHappensList.innerHTML = "";
   chapter.whatHappens.forEach((point) => {
@@ -142,8 +208,30 @@ function renderChapter(chapterId) {
     whatHappensList.appendChild(listItem);
   });
 
+  plotFocusSummary.textContent = chapter.plotFocusSummary;
+  plotFocusList.innerHTML = "";
+  chapter.plotFocus.forEach((point) => {
+    const listItem = document.createElement("li");
+    listItem.textContent = point;
+    plotFocusList.appendChild(listItem);
+  });
+
+  whyItMatters.textContent = chapter.whyItMatters;
+  whyMattersList.innerHTML = "";
+  chapter.whyPoints.forEach((point) => {
+    const listItem = document.createElement("li");
+    listItem.textContent = point;
+    whyMattersList.appendChild(listItem);
+  });
+
+  keyTheme.textContent = chapter.keyTheme;
+  themeNote.textContent = chapter.themeNote;
+  discussionQuestion.textContent = chapter.discussionQuestion;
+
   renderInteraction(chapter);
   updateChapterUI(chapterId);
+
+  plotFocusDetails.open = chapterId !== "25";
 }
 
 function renderInteraction(chapter) {
@@ -195,6 +283,14 @@ function updateChapterUI(chapterId) {
   chapterPanel.setAttribute("aria-labelledby", `tab-${chapterId}`);
 }
 
+function renderBigIdea() {
+  arcMyth.textContent = BIG_IDEA_ARC.myth;
+  arcWaiting.textContent = BIG_IDEA_ARC.waiting;
+  arcIdentity.textContent = BIG_IDEA_ARC.identity;
+  closingLine.textContent =
+    "Presentation closer: These chapters show Tara moving from inherited explanation to personal interpretation, then toward self-authorship.";
+}
+
 chapterButtons.forEach((button) => {
   button.addEventListener("click", () => {
     renderChapter(button.dataset.chapter);
@@ -205,11 +301,24 @@ const reflectionButtons = Array.from(document.querySelectorAll("[data-reflection
 const reflectionResult = document.getElementById("reflection-result");
 
 const reflectionTakeaways = {
-  escaping:
-    "Takeaway: escape matters here, but chapter 27 suggests escape alone is not the end goal.",
-  discovering:
-    "Takeaway: discovery is central; Tara is not only leaving a place, she is building a self.",
-  both: "Takeaway: strong synthesis. She escapes external control while discovering internal authority."
+  escaping: {
+    takeaway:
+      "Takeaway: escape drives the plot, but these chapters suggest escape alone cannot explain Tara's transformation.",
+    closing:
+      "Closing angle: emphasize escape as the condition that makes self-discovery possible."
+  },
+  discovering: {
+    takeaway:
+      "Takeaway: discovery is central; Tara is not only leaving a place, she is building a different way to read her life.",
+    closing:
+      "Closing angle: emphasize identity work as the deeper outcome of these chapters."
+  },
+  both: {
+    takeaway:
+      "Takeaway: strongest synthesis. Tara escapes external control while discovering internal authority.",
+    closing:
+      "Closing angle: show both motions at once, because the memoir presents them as inseparable."
+  }
 };
 
 reflectionButtons.forEach((button) => {
@@ -218,8 +327,10 @@ reflectionButtons.forEach((button) => {
     button.classList.add("is-picked");
 
     const key = button.dataset.reflection;
-    reflectionResult.textContent = reflectionTakeaways[key];
+    reflectionResult.textContent = reflectionTakeaways[key].takeaway;
+    closingLine.textContent = `Presentation closer: ${reflectionTakeaways[key].closing}`;
   });
 });
 
+renderBigIdea();
 renderChapter(activeChapterId);
