@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Educated Chapters 25–27: Myth, Waiting, and Identity</title>
+    <meta
+      name="description"
+      content="Interactive class mini-presentation on Chapters 25, 26, and 27 of Educated by Tara Westover."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-texture" aria-hidden="true"></div>
+    <header class="hero container">
+      <p class="eyebrow">10-minute interactive class companion</p>
+      <h1>Educated Chapters 25–27: Myth, Waiting, and Identity</h1>
+      <p class="intro-copy">
+        These chapters track a turning point: Tara starts re-reading her family stories,
+        re-thinking pain, and cautiously defining herself.
+      </p>
+      <a class="start-link" href="#chapter-paths">Enter the chapters</a>
+    </header>
+
+    <main class="container" id="chapter-paths">
+      <section class="panel chapter-nav" aria-label="Choose chapter order">
+        <div class="section-head">
+          <h2>Choose Your Path</h2>
+          <p>Open the chapters in any order.</p>
+        </div>
+        <div class="path-grid" role="tablist" aria-label="Chapter tabs">
+          <button class="path-card is-active" id="tab-25" role="tab" aria-selected="true" aria-controls="chapter-content" data-chapter="25">
+            <span class="chapter-number">25</span>
+            <span class="chapter-name">The Work of Sulphur</span>
+            <span class="chapter-hook">Pain becomes myth</span>
+          </button>
+          <button class="path-card" id="tab-26" role="tab" aria-selected="false" aria-controls="chapter-content" data-chapter="26">
+            <span class="chapter-number">26</span>
+            <span class="chapter-name">Waiting for the Moving Water</span>
+            <span class="chapter-hook">Waiting becomes a trap</span>
+          </button>
+          <button class="path-card" id="tab-27" role="tab" aria-selected="false" aria-controls="chapter-content" data-chapter="27">
+            <span class="chapter-number">27</span>
+            <span class="chapter-name">If I Were a Woman</span>
+            <span class="chapter-hook">Tara defines herself</span>
+          </button>
+        </div>
+        <p class="visit-meter" id="visit-meter">Visited: Chapter 25</p>
+      </section>
+
+      <section class="panel chapter-stage" id="chapter-content" role="tabpanel" aria-labelledby="tab-25">
+        <div class="section-head">
+          <h2 id="chapter-title"></h2>
+          <p id="chapter-subtitle"></p>
+        </div>
+
+        <div class="chapter-grid">
+          <article>
+            <h3>What Happens</h3>
+            <ul id="what-happens-list"></ul>
+          </article>
+          <article>
+            <h3>Why It Matters</h3>
+            <p id="why-it-matters"></p>
+          </article>
+          <article>
+            <h3>Key Theme</h3>
+            <p id="key-theme" class="theme-pill"></p>
+          </article>
+          <article>
+            <h3>Class Discussion Question</h3>
+            <p id="discussion-question"></p>
+          </article>
+        </div>
+
+        <div class="interaction" id="chapter-interaction"></div>
+      </section>
+
+      <section class="panel final-reflection" id="reflection">
+        <div class="section-head">
+          <h2>Final Class Reflection</h2>
+          <p>
+            By Chapter 27, is Tara mainly escaping her family, or discovering herself?
+          </p>
+        </div>
+
+        <div class="poll-buttons" role="group" aria-label="Final reflection poll">
+          <button type="button" data-reflection="escaping">Mostly escaping</button>
+          <button type="button" data-reflection="discovering">Mostly discovering</button>
+          <button type="button" data-reflection="both">Both at once</button>
+        </div>
+
+        <p class="reflection-result" id="reflection-result">
+          Pick one to generate your class takeaway.
+        </p>
+      </section>
+    </main>
+
+    <footer class="container footer-note">
+      <p>
+        Built for quick classroom understanding: plot first, then theme.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
